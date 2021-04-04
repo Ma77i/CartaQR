@@ -26,6 +26,7 @@ body {
 }
 
 
+
 .caja {
     display: flex;
     flex-direction: column;
@@ -48,8 +49,16 @@ p {
     color: white;
 }
 
+.textoFino {
+    font-weight: 100;
+}
+
 .precio {
     color: white;
     font-family: 'Bitter', serif;
     text-align: end;
+}
+
+footer {
+    display: flex;
 }
