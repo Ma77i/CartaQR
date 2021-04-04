@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100vh;
+    margin: 5% 5% 0% 5%;
+}
+
+.titulo {
+    font-family: 'Bitter', serif;
+    font-weight: 100;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+}
+
+.bebidas {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+p {
+    font-family: 'Bitter', serif;
+    color: white;
+}
+
+.parrafo {
+    font-family: 'Bitter', serif;
+    color: white;
+}
+
+.precio {
+    color: white;
+    font-family: 'Bitter', serif;
+    text-align: end;
+}
