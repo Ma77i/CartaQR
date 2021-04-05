@@ -10,7 +10,6 @@
 
 body {
     background-color: black;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -120,8 +119,7 @@ p {
 
 .menu {
     position: absolute;
-    top: 80%;
-    bottom: 30%;
+    top: 65%;
     left: 85%;
     right: 15%;
     font-family: 'Bitter', serif;
@@ -136,7 +134,6 @@ p {
 
 .menu2 {
     position: relative;
-    bottom: 22%;
     left: 85%;
     font-family: 'Bitter', serif;
     font-size: 40px;
