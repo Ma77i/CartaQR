@@ -126,7 +126,7 @@ a {
     font-family: 'Bitter', serif;
     color: white;
     margin-top: 3%;
-    border-bottom: 1px dashed #ffff00;
+    border-bottom: 1px dashed rgb(184, 182, 62);
 }
 
 .precio {
@@ -134,7 +134,7 @@ a {
     font-family: 'Bitter', serif;
     text-align: end;
     margin-top: 16%;
-    border-bottom: 1px dashed #ffff00;
+    border-bottom: 1px dashed rgb(184, 182, 62);
 }
 
 .bebida {
