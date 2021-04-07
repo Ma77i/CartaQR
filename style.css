@@ -15,7 +15,7 @@ h1 {
 }
 
 h4 {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Bitter', serif;
     color: white;
     text-align: center;
 }
@@ -27,6 +27,7 @@ nav {
     width: 100%;
     position: sticky;
     top: 0%;
+    z-index: 1;
 }
 
 ul {
@@ -45,7 +46,7 @@ li {
     text-decoration: none;
     list-style-type: none;
     text-transform: uppercase;
-    border: 1px solid white;
+    border: 0.1px solid rgb(255, 255, 255);
     border-radius: 10%;
     padding: 2% 5%;
 }
@@ -72,8 +73,9 @@ a {
     text-transform: uppercase;
     text-align: end;
     letter-spacing: 0.2rem;
-    color: white;
+    color: rgb(184, 182, 62);
     font-weight: lighter;
+    z-index: -1;
 }
 
 .tituloB {
@@ -115,7 +117,7 @@ a {
 
 .caja {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 80% 15%;
     grid-template-rows: 1fr;
     margin-bottom: 5%;
 }
@@ -123,13 +125,16 @@ a {
 .plato {
     font-family: 'Bitter', serif;
     color: white;
-    margin-bottom: 3%;
+    margin-top: 3%;
+    border-bottom: 1px dashed #ffff00;
 }
 
 .precio {
     color: white;
     font-family: 'Bitter', serif;
     text-align: end;
+    margin-top: 16%;
+    border-bottom: 1px dashed #ffff00;
 }
 
 .bebida {
@@ -146,6 +151,10 @@ a {
 
 .descripcion {
     font-weight: 100;
+    font-family: 'Bitter', serif;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
 
 .descripcionB {
